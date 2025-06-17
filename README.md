@@ -9,6 +9,27 @@
 - `rajakalla.py`: Raja, Mantri, Kalla, Sipahi game.
 - `readme.md`: This file.
 
+
+## How to Play: Raja, Mantri, Kalla, Sipahi (`rajakalla.py`)
+
+| Step | Action |
+|------|--------|
+| 1    | Run the script: `python rajakalla.py` |
+| 2    | Enter the names of four players. |
+| 3    | Each round, roles (Raja, Mantri, Kalla, Sipahi) are randomly assigned. |
+| 4    | The Raja is revealed. The Mantri must guess who the Kalla (thief) is. |
+| 5    | If Mantri guesses correctly, Mantri and Kalla get points (see below). If not, Kalla gets more points. |
+| 6    | Scores are tracked and displayed at the end. Results are exported to `game_scores.csv` and `game_scores.xlsx`. A bar chart of scores is shown. |
+
+### Scoring Table
+
+| Role    | Points per Round                      |
+|---------|---------------------------------------|
+| Raja    | +1000                                 |
+| Mantri  | +500 if correct, +100 if wrong        |
+| Kalla   | +500 if not caught, +100 if caught    |
+| Sipahi  | 0                                     |
+
 ## How to Play: The Number Gambit (`gamble.py`)
 
 | Step | Action |
@@ -38,25 +59,6 @@
 - Enter your desired amount at the start of the game when prompted.
 - Winnings are calculated and displayed automatically.
 
-## How to Play: Raja, Mantri, Kalla, Sipahi (`rajakalla.py`)
-
-| Step | Action |
-|------|--------|
-| 1    | Run the script: `python rajakalla.py` |
-| 2    | Enter the names of four players. |
-| 3    | Each round, roles (Raja, Mantri, Kalla, Sipahi) are randomly assigned. |
-| 4    | The Raja is revealed. The Mantri must guess who the Kalla (thief) is. |
-| 5    | If Mantri guesses correctly, Mantri and Kalla get points (see below). If not, Kalla gets more points. |
-| 6    | Scores are tracked and displayed at the end. Results are exported to `game_scores.csv` and `game_scores.xlsx`. A bar chart of scores is shown. |
-
-### Scoring Table
-
-| Role    | Points per Round                      |
-|---------|---------------------------------------|
-| Raja    | +1000                                 |
-| Mantri  | +500 if correct, +100 if wrong        |
-| Kalla   | +500 if not caught, +100 if caught    |
-| Sipahi  | 0                                     |
 
 > **RGTHD Gaming** is our team name, formed from the initials of our members' names listed below.
 
